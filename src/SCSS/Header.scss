@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(15, 119, 189, 0.438);
+
+        img {
+            display: flex;
+            width: 70px;
+            height: 70px;
+            margin-left: 20px;
+            margin-top: 1px;
+            
+        }
+    
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 2%;
+            
+            
+        }
+}
