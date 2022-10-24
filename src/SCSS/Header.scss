@@ -1,23 +1,21 @@
+
 .Header {
+    background-color: rgba(15, 119, 189, 0.438);
     display: flex;
     justify-content: space-between;
-    background-color: rgba(15, 119, 189, 0.438);
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
 
-        img {
-            display: flex;
-            width: 70px;
-            height: 70px;
-            margin-left: 20px;
-            margin-top: 1px;
-            
-        }
-    
-
-        ul {
-            display: flex;
-            list-style: none;
-            margin: 2%;
-            
-            
-        }
+    ul {
+        display: flex;
+        list-style: none;
+       
+            li{
+                margin: 2px;
+            }
+    }
+    img{
+        height: 70px;
+    }
 }

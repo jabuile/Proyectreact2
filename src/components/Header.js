@@ -5,7 +5,7 @@ import '../SCSS/Header.scss'
 
 function Header (){
     return (
-    <header className="Header">
+    <header  className="Header" > 
         <img  src="/logo2.jpg" alt="" />
         
       

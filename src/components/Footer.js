@@ -1,10 +1,14 @@
 import React from 'react'
+import '../SCSS/Footer.scss'
+import NavBar from './NavBar'
 
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <footer className='Footer'>
         Footer
-    </div>
+        <NavBar/>
+    </footer>
+    
   )
 }
 

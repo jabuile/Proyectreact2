@@ -1,0 +1,15 @@
+footer{
+    background-color: rgba(15, 119, 189, 0.438);
+    text-align: center;
+    padding: 1rem;
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+       
+            li{
+                margin: 2px;
+            }
+    }
+}
